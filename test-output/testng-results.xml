@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[username = dan@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[password = test123]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-11T06:15:13 GST" name="RegressionSuite" finished-at="2021-07-11T06:15:20 GST" duration-ms="6661">
+    <groups>
+    </groups>
+    <test started-at="2021-07-11T06:15:13 GST" name="RegressionTest" finished-at="2021-07-11T06:15:20 GST" duration-ms="6661">
+      <class name="test.Base">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.Base@649bec2e]" started-at="2021-07-11T06:15:13 GST" name="beforeTest" finished-at="2021-07-11T06:15:19 GST" duration-ms="5187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.Base@649bec2e]" started-at="2021-07-11T06:15:19 GST" name="afterTest" finished-at="2021-07-11T06:15:20 GST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.Base -->
+      <class name="test.BasicValidationTest">
+        <test-method signature="verifyTitle()[pri:0, instance:test.BasicValidationTest@50ad3bc1]" started-at="2021-07-11T06:15:19 GST" name="verifyTitle" finished-at="2021-07-11T06:15:19 GST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyUrl()[pri:0, instance:test.BasicValidationTest@50ad3bc1]" started-at="2021-07-11T06:15:19 GST" name="verifyUrl" finished-at="2021-07-11T06:15:19 GST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+      </class> <!-- test.BasicValidationTest -->
+      <class name="test.LoginTest">
+        <test-method signature="loginValidation()[pri:0, instance:test.LoginTest@223aa2f7]" started-at="2021-07-11T06:15:19 GST" name="loginValidation" finished-at="2021-07-11T06:15:19 GST" duration-ms="300" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[username = dan@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[password = test123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
