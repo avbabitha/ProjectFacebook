@@ -7,6 +7,8 @@ import org.testng.annotations.Parameters;
 
 import utils.Common;
 
+@Parameters({"browser","http://en-gb.facebook.com"})
+@BeforeClass
 public class Base {
 
 	static WebDriver driver;
