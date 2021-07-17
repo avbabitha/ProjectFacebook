@@ -14,8 +14,8 @@ public class Base {
 	static WebDriver driver;
 	Common common;
 
-	@Parameters({"browser","url"})
-	@BeforeTest
+//	@Parameters({"browser","url"})
+//	@BeforeTest
 	public void beforeTest(String browser,String url) {
 		common=new Common();
 		common.setupBrowser(browser, url);
