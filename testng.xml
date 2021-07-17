@@ -5,7 +5,7 @@
     <parameter name="browser" value="firefox"></parameter>
     <parameter name="url" value="http://en-gb.facebook.com"></parameter>
     <classes>
-      <class name="src/test/java/test.BasicValidationTest"/>
+      <class name="test.BasicValidationTest"/>
     </classes>
 //   <packages>
 //      <package name="test"/>
