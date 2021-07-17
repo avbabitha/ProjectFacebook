@@ -4,8 +4,11 @@
   <test thread-count="5" name="RegressionTest">
     <parameter name="browser" value="firefox"></parameter>
     <parameter name="url" value="http://en-gb.facebook.com"></parameter>
-    <packages>
-      <package name="test"/>
-    </packages>
+    <classes>
+      <class name="test.BasicValidationTest"/>
+    </classes>
+//   <packages>
+//      <package name="test"/>
+//    </packages>
   </test> <!-- RegressionTest -->
 </suite> <!-- RegressionSuite -->
